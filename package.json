@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:auto-update": "npm install bedrock-protocol@latest --no-save --loglevel=error && node index.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.57.0",
+    "express": "^4.19.2"
+  }
+}

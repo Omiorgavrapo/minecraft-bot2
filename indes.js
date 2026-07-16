@@ -2,7 +2,7 @@ const bedrock = require('bedrock-protocol');
 const express = require('express');
 
 // ====== CONFIG (pode sobrescrever via variáveis de ambiente no painel do MCServerHost) ======
-const HOST = process.env.MC_HOST || 'tavernaredstone.mcsh.io';
+const HOST = process.env.MC_HOST || 'newbedrock.mcsh.io';
 const PORT = Number(process.env.MC_PORT || 19132);
 const BOT_NAME = process.env.MC_BOT_NAME || 'zé_servizin';
 // A lib não aceita 'auto' — precisa ser uma versão exata que ela suporta.
